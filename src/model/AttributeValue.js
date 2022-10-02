@@ -79,7 +79,7 @@ class AttributeValue {
             if (!Array.isArray(data)) {
                 throw new Error("Invalid data type. Expecting array. Data: " + data);
             }
-            if (data.length < 1 {
+            if (data.length < 1) {
                 throw new Error("Invalid array size. Minimim: 1. Data: " + data);
             }
             // validate array of string
