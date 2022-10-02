@@ -1,0 +1,1 @@
+java -jar modules/openapi-generator-cli/target/openapi-generator-cli.jar generate -g javascript -i ~/Code/tator-js-client/tator.io.yaml -c ~/Code/tator-js-client/config.json -o ~/Code/tator-js-client
